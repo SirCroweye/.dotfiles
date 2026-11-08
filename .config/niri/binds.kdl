@@ -1,10 +1,10 @@
 binds {
 
   // === Programm Shortcuts ===
-  Mod+Enter hotkey-overlay-title="Kitty" { spawn "kitty"; }
-  Mod+F hotkey-overlay-title="FileManager" { spawn "thunar"; }
+  Mod+Return hotkey-overlay-title="Kitty" { spawn "kitty"; }
+  Mod+D hotkey-overlay-title="FileManager" { spawn "thunar"; }
   Mod+B hotkey-overlay-title="Browser" { spawn "librewolf"; }
-  Mod+Z { spawn "zed"}
+  Mod+Z { spawn "zed"; }
 
   // === Window Management ===
   Mod+Q repeat=false { close-window; }

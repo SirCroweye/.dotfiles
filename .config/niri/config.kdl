@@ -25,6 +25,7 @@ input {
     // accel-profile "flat"
     // scroll-method "two-finger"
     // disabled-on-external-mouse
+  }
 
   mouse {
     // off
@@ -33,12 +34,21 @@ input {
     // accel-profile "flat"
     // scroll-method "no-scroll"
     scroll-button 273
-    }
   }
 
   warp-mouse-to-focus
-  focus-follow-mouse max-scroll-amount="0%"
+  focus-follows-mouse max-scroll-amount="0%"
   workspace-auto-back-and-forth
 }
 
+spawn-at-startup "noctalia"
+
+environment {
+  XDG_CURRENT_DESKTOP "niri"
+}
+hotkey-overlay {
+  skip-at-startup
+}
+
 include "binds.kdl"
+include "noctalia.kdl"
