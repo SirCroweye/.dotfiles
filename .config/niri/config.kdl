@@ -1,0 +1,44 @@
+
+input {
+
+  keyboard {
+    xkb {
+      layout "de"
+      options "caps:escape,grp:shifts_toggle"
+      // options "caps:escape,grp:shifts_toggle,altwin:swap_alt_win,lv3:switch"
+    }
+
+    repeat-delay 300
+    repeat-rate 25
+    // track-layout "global"
+    numlock
+  }
+
+  touchpad {
+    // off
+    tap
+    dwt
+    // drag false
+    // drag-lock
+    natural-scroll
+    // accel-speed 0.2
+    // accel-profile "flat"
+    // scroll-method "two-finger"
+    // disabled-on-external-mouse
+
+  mouse {
+    // off
+    // natural-scroll
+    // accel-speed 0.2
+    // accel-profile "flat"
+    // scroll-method "no-scroll"
+    scroll-button 273
+    }
+  }
+
+  warp-mouse-to-focus
+  focus-follow-mouse max-scroll-amount="0%"
+  workspace-auto-back-and-forth
+}
+
+include "binds.kdl"
