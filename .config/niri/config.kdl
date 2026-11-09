@@ -4,8 +4,8 @@ input {
   keyboard {
     xkb {
       layout "de"
-      options "caps:escape,grp:shifts_toggle"
-      // options "caps:escape,grp:shifts_toggle,altwin:swap_alt_win,lv3:switch"
+      // options "caps:escape,grp:shifts_toggle"
+      options "caps:escape,grp:shifts_toggle,altwin:swap_alt_win,lv3:switch"
     }
 
     repeat-delay 300
@@ -51,5 +51,6 @@ hotkey-overlay {
 }
 
 include "binds.kdl"
+include "layout.kdl"
 include "window-rules.kdl"
 include "noctalia.kdl"
