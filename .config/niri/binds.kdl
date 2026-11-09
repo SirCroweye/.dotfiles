@@ -23,7 +23,7 @@ binds {
     // === Power & Wallpaper ===
     Mod+X hotkey-overlay-title="Power Menu: Toggle" { spawn-sh "noctalia msg panel-toggle session"; }
     Mod+Comma hotkey-overlay-title="Settings" {
-      spawn-sh "noctalia msg panel-toggle settings";
+      spawn-sh "noctalia msg settings-toggle";
     }
     Mod+Y hotkey-overlay-title="Browse Wallpapers" {
       spawn-sh "noctalia msg panel-toggle wallpaper";
