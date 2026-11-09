@@ -53,18 +53,18 @@ binds {
     XF86AudioMicMute allow-when-locked=true {
       spawn-sh "noctalia msg mic-mute";
     }
-  	XF86AudioPause allow-when-locked=true {
- 	    spawn-sh "noctalia msg media toggle";
-  	}
-  	XF86AudioPlay allow-when-locked=true {
- 	    spawn-sh "noctalia msg media toggle";
-  	}
-  	XF86AudioPrev allow-when-locked=true {
- 	    spawn-sh "noctalia msg media previous-player";
-  	}
-  	XF86AudioNext allow-when-locked=true {
- 	    spawn-sh "noctalia msg media next-player";
-  	}
+    XF86AudioPause allow-when-locked=true {
+      spawn-sh "noctalia msg media toggle";
+    }
+    XF86AudioPlay allow-when-locked=true {
+      spawn-sh "noctalia msg media toggle";
+    }
+    XF86AudioPrev allow-when-locked=true {
+      spawn-sh "noctalia msg media previous-player";
+    }
+    XF86AudioNext allow-when-locked=true {
+      spawn-sh "noctalia msg media next-player";
+    }
     Ctrl+XF86AudioRaiseVolume allow-when-locked=true {
       spawn-sh "noctalia msg volume-up 3";
     }
