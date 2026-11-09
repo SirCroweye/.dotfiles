@@ -42,3 +42,5 @@ input {
 }
 
 include "binds.kdl"
+include "window-rules.kdl"
+include "noctalia.kdl"
